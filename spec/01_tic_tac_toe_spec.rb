@@ -5,7 +5,7 @@ describe './lib/tic_tac_toe.rb' do
     describe '#initialize' do
       it 'assigns an instance variable @board to an array with 9 blank spaces " "' do
         game = TicTacToe.new
-        expect(game.instance_variable_get(:@board)).to eq([" "," "," "," "," "," "," "," "," "])
+        expect(game.instance_variable_get(':@board)).to eq([" "," "," "," "," "," "," "," "," "])
       end
     end
 
